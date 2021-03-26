@@ -137,3 +137,12 @@ body
     font-size: 14px;
     font-weight: normal;
 }
+@media(max-width: 790px){
+    .section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fb{
+        text-align: center;
+    }
+}
